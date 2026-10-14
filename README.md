@@ -63,3 +63,7 @@ Execute `cargo run --release -- bench` no computador usado para a apresentação
 | 100.000 | 49,115 ms | 12,857 ms | 0,129 ms |
 
 Os tempos dependem do hardware, da versão do Rust e da carga do computador. Resultados obtidos no computador Windows do autor em 26/09/2026, utilizando cargo run --release -- bench. Foram realizadas 100 consultas por volume, retornando 10 produtos por consulta. Os tempos variam conforme o hardware e a carga do computador.
+
+Link do video:
+https://youtu.be/-qh566EXE8g
+
