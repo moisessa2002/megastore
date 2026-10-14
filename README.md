@@ -58,8 +58,8 @@ Execute `cargo run --release -- bench` no computador usado para a apresentação
 
 | Produtos | Construção | 100 consultas | Média por consulta |
 | ---: | ---: | ---: | ---: |
-| 1.000 | A preencher após execução | A preencher | A preencher |
-| 10.000 | A preencher após execução | A preencher | A preencher |
-| 100.000 | A preencher após execução | A preencher | A preencher |
+| 1.000 | 0,463 ms | 0,207 ms | 0,002 ms |
+| 10.000 | 4,287 ms | 1,210 ms | 0,012 ms |
+| 100.000 | 49,115 ms | 12,857 ms | 0,129 ms |
 
-Os tempos dependem do hardware, da versão do Rust e da carga do computador. Este ambiente de elaboração não tinha `cargo` ou `rustc`, portanto não foram inventados resultados. A medição usa `std::time::Instant` e mede a construção separadamente das consultas; não substitui um benchmark estatístico com aquecimento e múltiplas amostras independentes.
+Os tempos dependem do hardware, da versão do Rust e da carga do computador. Resultados obtidos no computador Windows do autor em 26/09/2026, utilizando cargo run --release -- bench. Foram realizadas 100 consultas por volume, retornando 10 produtos por consulta. Os tempos variam conforme o hardware e a carga do computador.
